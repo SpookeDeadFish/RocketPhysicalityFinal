@@ -5269,8 +5269,10 @@ MonoBehaviour:
   radius: 15
   power: 300
   upMod: 4
-  sparks: {fileID: 1114860901759404685, guid: 7c08767f13a1df54ca68b78d64d5bef4, type: 3}
+  sparks: {fileID: 8357618149441958165, guid: c36dce28b654bec46844a2870c061f90, type: 3}
   soundPrefab: {fileID: 3840812999648603740, guid: 66d94d911415e9e4ea84964a0a4b5339, type: 3}
+  cinemachineCamera: {fileID: 0}
+  cinemachineBasicMultiChannelPerlin: {fileID: 0}
 --- !u!82 &8621640052704710230
 AudioSource:
   m_ObjectHideFlags: 0
