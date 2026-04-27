@@ -24,12 +24,13 @@ public class SceneLoader : MonoBehaviour
     IEnumerator LoadNextLevel()
     {
         yield return new WaitForSeconds(5);
-        sceneIndex++;
+        /*sceneIndex++;
         Debug.Log(SceneUtility.GetScenePathByBuildIndex(sceneIndex));
         if (SceneUtility.GetScenePathByBuildIndex(sceneIndex).ToString() != "")
         {
             SceneManager.LoadScene(sceneIndex);
-        }
+        }*/
+        SceneManager.LoadScene("Title Scene");
     }
 
     public void ReloadLevel()

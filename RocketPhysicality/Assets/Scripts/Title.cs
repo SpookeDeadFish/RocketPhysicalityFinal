@@ -6,7 +6,7 @@ public class Title : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
     }
 
     // Update is called once per frame
@@ -20,10 +20,10 @@ public class Title : MonoBehaviour
     }
     public void loadLevelOne()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("LukeScnee");
     }
     public void loadLevelTwo()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("MikeScene");
     }
 }
