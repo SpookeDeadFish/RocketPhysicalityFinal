@@ -22,6 +22,11 @@ public class Title : MonoBehaviour
     {
         SceneManager.LoadScene("Level 1");
     }
+    
+    public void loadLevelTwo()
+    {
+        SceneManager.LoadScene("Level 2");
+    }
     public void loadLevelThree()
     {
         SceneManager.LoadScene("LukeScnee");
@@ -30,8 +35,13 @@ public class Title : MonoBehaviour
     {
         SceneManager.LoadScene("MikeScene");
     }
-    public void loadLevelTwo()
+    public void loadLevelFive()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Daniel Level 1");
     }
+    public void loadLevelSix()
+    {
+        SceneManager.LoadScene("Daniel Level 2");
+    }
+
 }
