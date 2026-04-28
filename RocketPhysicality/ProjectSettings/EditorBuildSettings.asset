@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Tutorial Scene.unity
-    guid: 4fd71ebf67a6c0a4d9e8835855f5ecf5
-  - enabled: 1
     path: Assets/Scenes/Title Scene.unity
     guid: 03ace2448c3911e489c101610ae81917
   - enabled: 1
@@ -29,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Daniel Level 2.unity
     guid: a25d8424b5dbd5146ac28d5a950b8129
+  - enabled: 0
+    path: Assets/Scenes/Tutorial Scene.unity
+    guid: 4fd71ebf67a6c0a4d9e8835855f5ecf5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
