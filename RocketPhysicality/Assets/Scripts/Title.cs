@@ -20,10 +20,18 @@ public class Title : MonoBehaviour
     }
     public void loadLevelOne()
     {
+        SceneManager.LoadScene("Level 1");
+    }
+    public void loadLevelThree()
+    {
         SceneManager.LoadScene("LukeScnee");
+    }
+    public void loadLevelFour()
+    {
+        SceneManager.LoadScene("MikeScene");
     }
     public void loadLevelTwo()
     {
-        SceneManager.LoadScene("MikeScene");
+        SceneManager.LoadScene("Level 2");
     }
 }
